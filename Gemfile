@@ -12,6 +12,7 @@ gem 'puma', '~> 4.1'
 gem 'active_model_serializers', '~> 0.10.10'
 gem 'kaminari', '~> 1.2', '>= 1.2.1'
 gem 'octokit', '~> 4.18'
+gem 'factory_bot', '~> 6.0', '>= 6.0.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
