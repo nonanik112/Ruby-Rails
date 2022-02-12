@@ -78,6 +78,7 @@ GEM
       activesupport (>= 5.0.0)
     faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
+    ffi (1.13.1)
     ffi (1.13.1-x64-mingw32)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -113,15 +114,17 @@ GEM
     mimemagic (0.3.5)
     mini_mime (1.0.2)
     minitest (5.14.1)
+    msgpack (1.3.3)
     msgpack (1.3.3-x64-mingw32)
     multipart-post (2.1.1)
-    nio4r (2.5.2)
+    nio4r (2.5.8)
     nokogiri (1.11.0.rc2-x64-mingw32)
+    nokogiri (1.11.0.rc2-x86_64-linux)
     octokit (4.18.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     public_suffix (4.0.5)
-    puma (4.3.5)
+    puma (4.3.11)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-proxy (0.6.5)
@@ -182,6 +185,8 @@ GEM
     ruby_dep (1.5.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
+    sassc (2.4.0)
+      ffi (~> 1.9)
     sassc (2.4.0-x64-mingw32)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -227,6 +232,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   active_model_serializers (~> 0.10.10)
@@ -237,7 +243,7 @@ DEPENDENCIES
   kaminari (~> 1.2, >= 1.2.1)
   listen (>= 3.0.5, < 3.2)
   octokit (~> 4.18)
-  puma (~> 4.1)
+  puma (~> 4.3)
   rails (~> 6.0.3, >= 6.0.3.2)
   rspec (~> 3.9)
   rspec-rails (~> 4.0.0)
